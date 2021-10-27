@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Game</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="answer">
+      <h1>Correct Answer</h1>
+      <p></p>
+    </div>
+
+    <div class="user">
+      <p></p>
+      <div class="score correct">00</div>
+      <div class="score wrong">00</div>
+    </div>
+
+    <div class="timer">15</div>
+
+    <button class="start">Start</button>
+    <div class="random"></div>
+
+    <div class="type">
+      <input type="text" placeholder="Type Here" />
+      <button>
+        <i class="fa fa-microphone"></i>
+      </button>
+    </div>
+
+    <div class="outer">
+      <div class="inner">
+        <p>Please Enter Your Name</p>
+        <input type="text" />
+        <button class="submit">SUBMIT</button>
+      </div>
+    </div>
+
+    <div class="over">
+      <div class="gameover">
+        <p>Game Over!</p>
+        <p class="currentscore"></p>
+        <button>Retry</button>
+      </div>
+    </div>
+
+    <script src="words-1.js"></script>
+    <script src="words-2.js"></script>
+    <script src="words-3.js"></script>
+    <script src="words-4.js"></script>
+    <script src="words-5.js"></script>
+    <script src="render.js"></script>
+  </body>
+</html>
